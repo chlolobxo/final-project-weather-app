@@ -12,3 +12,6 @@ function handleSearch(event) {
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearch);
+
+let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
+let apiKey = "3cob132dc3daat1dec233c5354fa90b7";
